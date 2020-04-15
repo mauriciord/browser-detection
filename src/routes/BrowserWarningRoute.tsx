@@ -10,7 +10,7 @@ const BrowserWarningRoute = ({ children, ...rest }: RouteProps) => {
   const [browserAllowed] = useLocalStorage("browserAllowed", false);
   const location = useLocation();
 
-  return isRecommendedBrowser && browserAllowed ? (
+  return isRecommendedBrowser || browserAllowed ? (
     children ? (
       <Route render={() => children} {...rest} />
     ) : (

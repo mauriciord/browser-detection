@@ -8,7 +8,8 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
     "styled-components": "^5.1.0",
-    "styled-normalize": "^8.0.7"
+    "styled-normalize": "^8.0.7",
+    "use-clipboard-copy": "^0.1.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
