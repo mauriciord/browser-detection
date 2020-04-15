@@ -4,10 +4,6 @@ import { Switch, Route, RouteComponentProps, Redirect } from "react-router-dom";
 import AppContent from "../layouts/AppContent";
 import { Dashboard } from "../pages";
 
-type Params = {
-  match?: string;
-};
-
 const App = ({ match }: RouteComponentProps<{}>) => (
   <AppContent>
     <Suspense fallback={<div>Loading...</div>}>
