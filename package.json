@@ -30,7 +30,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "yarn build && netlify deploy --dir build --prod"
+    "deploy": "yarn build && netlify deploy --dir build --prod",
+    "debug-prod": "yarn build && npx serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
