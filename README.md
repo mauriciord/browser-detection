@@ -1,4 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Nuuvem Browser verification
+
+This project is a [Front End test](https://gitlab.com/nuuvem-public/tests/frontend-2), using some modern tools like:
+
+- ReactJS
+- Typescript
+- React Router
+- Styled components
+- Polished js utils
+
+## Running this project
+
+Clone or download this repository:
+
+```
+cd nuuvem-browseers
+yarn
+```
+
+You can use somee of this scripts:
 
 ## Available Scripts
 
